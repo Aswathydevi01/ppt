@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+font-family: Century Gothic;
+}
+ul{
+  float:right;
+  list-style-type:none;
+  margin-top:25px;
+}
+ ul li{
+   display:inline-block;
+   }
+   ul li a{
+    text-decoration:none;
+    color:2f4f4fS;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition:0.6s ease;
+       }
+
+    ul li a:hover{
+     background-color:#fff;
+     color: #000;
+      }
+      ul li.active a{
+       background-color:#fff;
+       color: #000;
+       }
+      .logo img{
+       float: left;
+       width: 150px;
+       height: auto;
+       }
+    .title{
+       position: absolute;
+       top: 35%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       }
+       .title h1{
+        color:black;
+        font-size:70px;
+        }
+        .button{
+          position:absolute;
+          top: 410px;
+          left: 690px;
+          transform: translate(-50%,-50%);
+          }
+          .btn{
+          border: 1px solid black;
+          padding:10px 30px;
+          color:#black;
+          text-decoration:none;
+          }
+          /* About Us Section */
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-container .background {
+
+  background: url(../img/about-us.png) center top no-repeat;
+  background-size: 510px;
+  margin-bottom: 10px;
+}
+
+#about .about-container .content {
+  background: #fff;
+}
+
+#about .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #about .about-container .title {
+    padding-top: 15px;
+  }
+}
+
+#about .about-container p {
+  line-height: 26px;
+}
+
+#about .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+#about .about-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#about .about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+#about .about-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#about .about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#about .about-container .icon-box .title a {
+  color: #111;
+}
+
+#about .about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* Facts Section */
+#facts {
+  background: #f7f7f7;
+  padding: 80px 0 60px 0;
+}
+
+#facts .counters span {
+  font-size: 48px;
+  display: block;
+  color: #2dc997;
+}
+
+#facts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
